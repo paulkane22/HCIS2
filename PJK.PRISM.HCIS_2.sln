@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.PRISM.HCIS_2.UI", "PJK.PRISM.HCIS_2.UI\PJK.PRISM.HCIS_2.UI.csproj", "{08EF275A-66C3-4590-B5C2-D6A2167FEBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJK.PRISM.HCIS2.Module.PatientManager", "PJK.PRISM.HCIS2.Module.PatientManager\PJK.PRISM.HCIS2.Module.PatientManager.csproj", "{C4952073-7243-403A-8E1C-23EFC5828E7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{08EF275A-66C3-4590-B5C2-D6A2167FEBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EF275A-66C3-4590-B5C2-D6A2167FEBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08EF275A-66C3-4590-B5C2-D6A2167FEBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4952073-7243-403A-8E1C-23EFC5828E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4952073-7243-403A-8E1C-23EFC5828E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4952073-7243-403A-8E1C-23EFC5828E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4952073-7243-403A-8E1C-23EFC5828E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
