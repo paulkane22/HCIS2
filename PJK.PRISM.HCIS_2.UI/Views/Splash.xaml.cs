@@ -46,7 +46,7 @@ namespace PJK.PRISM.HCIS_2.UI.Views
 
         private void Worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            for (int i = 60; i > 0; i = i-2)
+            for (int i = 0; i < 60; i++)
             {
                 (sender as BackgroundWorker).ReportProgress(i);
                 Thread.Sleep(100);

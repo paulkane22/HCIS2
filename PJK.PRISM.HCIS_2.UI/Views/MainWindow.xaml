@@ -2,6 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/"
+        xmlns:views="clr-namespace:PJK.PRISM.HCIS_2.UI.Views"
+        xmlns:viewModel="clr-namespace:PJK.PRISM.HCIS_2.UI.ViewModels"         
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="700" Width="1000" ResizeMode="CanResize" 
         WindowStartupLocation="CenterScreen" >
@@ -14,7 +16,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="0"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition />
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -50,7 +52,7 @@
             </Menu>
         </StackPanel>
 
-
+        <views:RibbonMain Grid.Row="1" Grid.ColumnSpan="3" />
 
         <StatusBar Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
             <StatusBarItem Content="{Binding StatusBarMessage}" Margin="10,0,10,0"/>

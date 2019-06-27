@@ -14,7 +14,7 @@ namespace PJK.PRISM.HCIS2.Module.PatientManager
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            //containerRegistry.Register<IMessageDialogService, MessageDialogService>();
         }
     }
 }

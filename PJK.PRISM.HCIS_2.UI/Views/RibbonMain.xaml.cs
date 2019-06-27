@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace PJK.PRISM.HCIS2.Module.PatientManager.Views
+namespace PJK.PRISM.HCIS_2.UI.Views
 {
     /// <summary>
     /// Interaction logic for RibbonMain
